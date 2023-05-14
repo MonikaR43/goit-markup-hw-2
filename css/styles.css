@@ -5,10 +5,34 @@
 }
 body {
   font-family: var(--border-style);
+  color: var(--color-1);
   font-style: normal;
+  text-decoration: none;
 }
-.button {
+.button-portfolio {
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.62;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-portfolio:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+.name-image {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  letter-spacing: 0.06em;
+}
+.text-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .logo {
   color: #000000;
@@ -26,12 +50,21 @@ body {
   font-size: 14px;
   line-height: 0.88;
 }
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+}
 .kontakt-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.88;
   color: #757575;
 }
+.kontakt-header:hover,
+.kontakt-header:focus {
+  color: #2196f3;
+}
+
 .background-index {
   background: #2f303a;
 }
@@ -48,11 +81,10 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
-.h4index {
+.name-index {
   font-weight: 700;
   font-size: 14px;
   line-height: 0.88;
-  color: var(--color-1);
 }
 .text-index {
   font-weight: 400;
@@ -60,17 +92,18 @@ body {
   line-height: 0.58;
   color: #757575;
 }
-.h2-index {
+.descripition-index {
   font-weight: 700;
   font-size: 36px;
   line-height: 0.86;
-  colo: var(--color-1);
 }
-.h4-image {
+.team-image {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.84;
-  color: var(--color-1);
+}
+.team {
+  background: #f5f4fa;
 }
 .position-index {
   font-weight: 400;
@@ -100,4 +133,8 @@ body {
 }
 .kontakt-footer {
   color: rgba(255, 255, 255, 0.6);
+}
+.kontakt-footer:hover,
+.kontakt-footer:focus {
+  color: #2196f3;
 }
