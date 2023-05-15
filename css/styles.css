@@ -9,11 +9,18 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
 .button-portfolio {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.62;
+  line-height: 1.63;
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -24,13 +31,13 @@ body {
 .name-image {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .text-portfolio {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.53;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -39,7 +46,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.77;
+  line-height: 1.19;
 }
 .web {
   color: #2196f3;
@@ -48,7 +55,7 @@ body {
   color: var(--color-1);
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
 }
 .nav:hover,
 .nav:focus {
@@ -57,7 +64,7 @@ body {
 .kontakt-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
   color: #757575;
 }
 .kontakt-header:hover,
@@ -71,36 +78,36 @@ body {
 .h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.73;
+  line-height: 1.36;
   color: #ffffff;
 }
 .button-index {
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.53;
+  line-height: 1.88;
   color: #ffffff;
   background: #2196f3;
 }
 .name-index {
   font-weight: 700;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
 }
 .text-index {
   font-weight: 400;
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   color: #757575;
 }
 .descripition-index {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.86;
+  line-height: 1.17;
 }
 .team-image {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.19;
 }
 .team {
   background: #f5f4fa;
@@ -108,7 +115,7 @@ body {
 .position-index {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.19;
   color: #757575;
 }
 .background-footer {
@@ -118,7 +125,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
 }
 .studio-footer {
   color: #ffffff;
@@ -126,7 +133,7 @@ body {
 .adress-kontakt-footer {
   font-weight: 400;
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
 }
 .adress-footer {
   color: #ffffff;
